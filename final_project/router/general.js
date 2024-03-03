@@ -87,7 +87,7 @@ public_users.get('/title/:title', async (req, res) => {
 
   try {
     // Use Axios to make an asynchronous GET request
-    const response = await axios.get(`http://your-books-api-endpoint/title/${title}`); // Replace with your actual API endpoint
+    const response = await axios.get(`http://https://www.googleapis.com/auth/books/${title}`); // Replace with your actual API endpoint
 
     // Extract the book details from the response
     const booksByTitle = response.data.books;
